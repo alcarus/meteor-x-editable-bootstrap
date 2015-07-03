@@ -34,6 +34,12 @@ Package.on_use(function (api){
   api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/bootstrap-wysihtml5-0.0.2.css', 'client');
   api.addFiles('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/bootstrap-wysihtml5-0.0.2.js', 'client', {bare:true});
 
+  //typeaheadjs
+  api.addFiles('lib/typeaheadjs/typeaheadjs.js', 'client', {bare:true});
+  api.addFiles('lib/typeaheadjs/lib/typeahead.js-bootstrap.css', 'client');
+  api.addFiles('lib/typeaheadjs/lib/typeahead.js', 'client', {bare:true});
+  api.addFiles('lib/typeaheadjs/lib/typeahead.bundle.min.js', 'client', {bare:true});
+
   //override image paths
   api.addFiles('path-override.css', 'client');
 });
